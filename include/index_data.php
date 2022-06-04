@@ -5,11 +5,10 @@ $index =[
     'soustitre' => 'Développement Web - Audiovisuel - Communication Digitale',
     'intertitre' => 'Qui suis-je?',
     'quisuisje' => 'Née le jeudi 23 mai 1996 à Douai j\'ai passé mon enfance entre le nord et la région parisienne.
-    Aujourd\'hui je suis étudiante dans l\'Université de Strasbourg. Grande passionnée de technologie; 
+    Aujourd\'hui je suis étudiante dans l\'Université de Strasbourg. Grande passionnée de technologie,
     de psychologie et d\'astronomie j\'aime autant découvrir de nouvelles choses que d\'en concevoir. Mon
-    esprit créatif me permet de repousser mes limites que ce soit dans le front-end qu\'en audiovisuel.    ',
-    'quesque' => 'Le bachelor Métiers du mutlimédia et de l\'internet que je poursuis actuellement m\'a permis des m\'
-    initier au métier du web comme à ceux de la communication et du marketing. Aujourd\'hui je suis 
+    esprit créatif me permet de repousser mes limites que ce soit dans le Developpement Web qu\'en Audiovisuel.    ',
+    'quesque' => 'Le bachelor Métiers du mutlimédia et de l\'internet que je poursuis actuellement m\'a permis de m\'initier aux métiers du web comme à ceux de la communication et du marketing. Aujourd\'hui je suis 
     capable de concevoir un site web répondants aux normes d\'UX et d\'accessibilité exigées dans l\'industrie.
     Je suis aussi capable de créer des contenus pour une campagne de communication digitale de la charte 
     éditoriale au ciblage en passant par le calendrier de publications.',

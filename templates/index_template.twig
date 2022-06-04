@@ -9,7 +9,6 @@
 				<div class="titre flex">
 					<div class="center-outer">
 						<div class="center-inner">
-
 							<div class="bubbles">
 								<h1 class="titre_main flex">
 									{{index.nom}}
@@ -17,45 +16,43 @@
 								</h1>
 								<h2>{{index.soustitre}}</h2>
 								{# reflechir position du sous titre #}
-								<h3> ! Ce site est encore en WIP ! </h3>
+								<h3>
+									! Ce site est encore en WIP !
+								</h3>
 							</div>
 						</div>
-
 					</div>
 				</div>
-				<nav class="navmain flex " role="nav">
+				<nav class="navmain flex " id="nav_main" role="nav">
 					<ul class="carte_ul flex ">
 						<div role="placement" class="flex placement">
 							{% for element in type_contenu %}
-
 								<li class="flex hover_1 {{element.nomspe_type_contenu}}">
 									<a href="competence.php?id={{ element.id_type_contenu }}" class="carte {{element.nomspe_type_contenu}}">
 										<p class="lnav {{element.nomspe_type_contenu}}_type ">{{element.nom_type_contenu}}</p>
 									</a>
 								</li>
-
 							{% endfor %}
-
 						</ul>
 					</nav>
 				</header>
+				<aside class="flex scroller">
+					<h4>
+						Accès Rapide :</h4>
+					<a href="#nav_main">
+						Choix des domaines
+					</a>
+					<a href="#principale">
+						A propos de moi
+					</a>
+					<a href="/contact.php">
+						Contact
+						<i class="bi bi-box-arrow-up-right"></i>
+					</a>
+				</aside>
 				<main class="main_index flex" role="main">
-
+					<i class="bi bi-box-arrow-up-right"></i>
 					<section class="flex sectionIndex">
-						<aside class="flex scroller">
-							<p>
-								A</p>
-							<p>
-								A</p>
-							<p>
-								A</p>
-							<p>
-								A</p>
-							<p>
-								A</p>
-							<p>
-								A</p>
-						</aside>
 						<article class="skip">
 							<a href="#principale" class="flex intertitre">
 								<h2 class "flex inter">{{index.intertitre}}</h2>
@@ -65,7 +62,7 @@
 						<article class="flex artpres">
 							<div class"flex mainpres">
 								<div class="moi flex">
-									<img class="flex imgPres" src="image/test.jpg" alt="">
+									<img class="flex imgPres" src="image/moi.jpg" alt="">
 									<div class="info flex">
 										<div class="iteminfo">
 											<h3 class="apropos">{{index.nom}}</h3>
@@ -74,25 +71,29 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="presentation flex">
 									<div class="pres1 flex">
-										<img src="image/dejavu.png">
+										<img class="flag" src="image/flag.png">
 										<p>{{index.quisuisje}}</p>
 									</div>
 									<div class="pres1 flex">
-										<img src="image/dejavu.png">
+										<img class="flag" src="image/flag.png">
 										<p>{{index.quesque}}</p>
 									</div>
 									<div class="pres1 flex">
-										<img src="image/dejavu.png">
+										<img class="flag" src="image/flag.png">
 										<p>{{index.shamelessPlug}}</p>
+									</div>
+									<div class="contact_box">
+										<a class="flex contact" href="/contact.php">
+											<h4>Contactez-moi !</h4>
+										</a>
 									</div>
 								</div>
 							</div>
+
 						</article>
 					</section>
 				</main>
 			</body>
-		</main>
-	{% endblock body %}
+		{% endblock body %}
