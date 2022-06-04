@@ -1,0 +1,125 @@
+
+.htmldweb:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -999vh;
+    left: 0;
+    bottom: -260vh;
+    right: 0;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    background-size: 100% 2px, 3px 100%;
+    animation: flicker 0.15s infinite;
+}
+
+.htmldweb::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -999vh;
+    left: 0;
+    bottom: -260vh;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.htmldweb {
+    animation: textShadow 1.6s infinite;
+}
+.body_dweb {
+    height: 100vw;
+    width: 100vw;
+    background-color: rgb(51, 51, 51);
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'VT323', monospace;  
+    justify-content: center;
+    align-items: center;
+}
+.img_dweb{
+    width : 40vw;
+    height: auto;
+    border-radius: 25px;
+    border: 2px solid lime;
+    margin :10px;
+}
+.titredweb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+
+.titre_maindweb {
+    font-size: 500%;
+}
+
+.main_dweb {
+    /* justify-content: center;
+    align-items: center; */
+    margin: 25px;
+    padding: 25px;
+}
+
+.sectiondweb {
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.art_dweb {
+    margin: 25px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 90vw;
+}
+
+.art_dweb>h2 {
+    font-size: 300%;
+    /* margin-left: 200px; */
+    justify-content: center;
+    align-items: center;
+    max-width: 30vw;
+    /* margin: auto; */
+}
+
+.row_dweb {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.div_dweb {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 30vw;
+}
+
+.div_dweb>p {
+    margin: 10px;
+    padding: 5px;
+    font-size: 200%;
+}
+/* .imgctn{
+    width : 40vw;
+    height: auto;
+    border-radius: 25px;
+    border: 2px solid lime;
+    margin :10px;
+} */
+
+.green_dweb {
+    font-family: 'VT323', monospace;  
+    color: limegreen;
+}
