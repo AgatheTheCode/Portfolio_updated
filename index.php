@@ -15,6 +15,5 @@ include('include/index_data.php');
 echo $twig->render('index_template.twig', [
   'type_contenu' => $type_contenu,
   'index' => $index,
-  'nav' => $nav,
-  'footer' => $footer,
+  'index_data' => $index_data,
 ]);

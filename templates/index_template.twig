@@ -45,7 +45,7 @@
 					<a href="#principale">
 						A propos de moi
 					</a>
-					<a href="/contact.php">
+					<a href="contact.php">
 						Contact
 						<i class="bi bi-box-arrow-up-right"></i>
 					</a>
@@ -72,20 +72,14 @@
 									</div>
 								</div>
 								<div class="presentation flex">
+								{% for element in index_data %}
 									<div class="pres1 flex">
 										<img class="flag" src="image/flag.png">
-										<p>{{index.quisuisje}}</p>
+										<p>{{element.txt}}</p>
 									</div>
-									<div class="pres1 flex">
-										<img class="flag" src="image/flag.png">
-										<p>{{index.quesque}}</p>
-									</div>
-									<div class="pres1 flex">
-										<img class="flag" src="image/flag.png">
-										<p>{{index.shamelessPlug}}</p>
-									</div>
+									{% endfor %}
 									<div class="contact_box">
-										<a class="flex contact" href="/contact.php">
+										<a class="flex contact" href="contact.php">
 											<h4>Contactez-moi !</h4>
 										</a>
 									</div>
