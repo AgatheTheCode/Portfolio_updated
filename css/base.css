@@ -15,7 +15,7 @@ html {
     background-repeat: no-repeat;
     background-size: 100vh 100vw; */
     position: relative;
-    top: -20px;
+    top: -1.25em;
 }
 
 i {
@@ -78,14 +78,14 @@ body {
 }
 
 .titre {
-    padding: 25px;
+    padding: 1.5625em;
     /* margin-bottom: 20vh; */
     background: whitesmoke;
     flex-direction: column;
     position: relative;
-    top: 60px;
+    top: 3.75em;
     font-weight: 600;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     max-width: 40vw;
     /* font-size: 95%; */
 }
@@ -116,25 +116,26 @@ body {
 }
 
 .scroller {
-    padding: 15px;
-    margin: 25px;
-    border-radius: 25px;
+    padding: 0.9375em;
+    margin: 1.5625em;
+    border-radius: 1.5625em;
     display: flex;
     flex-direction: column;
     position: fixed;
     z-index: 1;
     width: 14vw;
     background-color: whitesmoke;
-    left: 10px;
-    top: 260px;
+    left: 0.625em;
+    top: 16.25em;
     overflow-x: hidden;
     transition: ease-in-out .5s;
-    box-shadow: 0px 22px 28px 13px #02010188;
+    box-shadow: 0em 1.375em 1.75em 0.8125em #02010188;
+
 }
 
 .scroller a {
     color: #000000;
-    margin-top: 10px;
+    margin-top: 0.625em;
     font-size: 120%;
     transition: all .5s ease-in-out;
 }
@@ -188,38 +189,43 @@ header {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding: 30px;
-    margin: 30px;
+    padding: 1.875em;
+    margin: 1.875em;
     justify-content: space-around;
     width: 20vw;
     height: 50vh;
     background: rgb(0, 0, 0);
-    padding: 30px;
     transition: all .5s ease-in-out;
-    border-radius: 25px;
+    border-radius: 1.5625em;
 }
-
+/* lignes */
+.ligne{
+    position: absolute;
+    height: .3em;
+    width: 5em;
+    overflow: hidden;
+}
 
 .hover_1:hover {
     transform: scale(1.1);
     position: relative;
     top: -50px;
-    box-shadow: 0px 22px 28px 13px #000000;
+    box-shadow: 0em 1.375em 1.75em 0.8125em #000000;
 
 }
 
 .lnav {
     color: black;
     font-weight: thin;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.625em;
+    padding: 0.625em;
 }
 
 /* main */
 .mainIndex {
     width: 100vw;
 
-    padding: 30px;
+    padding: 1.875em;
 }
 
 /* .dweb_type{
@@ -240,8 +246,8 @@ header {
     margin-bottom: 100vh;
     justify-content: center;
     background-color: transparent;
-    padding: 25px;
-    border-radius: 25px;
+    padding: 1.5625em;
+    border-radius: 1.5625em;
     transition: all .5s ease-in-out;
 
 
@@ -251,7 +257,7 @@ header {
     background-color: whitesmoke;
     /* background-color: #dcf5dc; */
     transform: scale(1.2);
-    box-shadow: 0px 22px 28px 13px #02010188;
+    box-shadow: 0em 1.375em 1.75em 0.8125em #02010188;
     /* trouver meilleur couleur */
 }
 
@@ -262,47 +268,47 @@ header {
 }
 
 #principale {
-    margin: 25px;
-    padding: 25px;
+    margin: 1.5625em;
+    padding: 1.5625em;
     height: 25vh;
     align-items: center;
 }
 
 .moi {
-    margin: 25px;
+    margin: 1.5625em;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
 .iteminfo {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
+    padding: 0.3125em;
+    margin: 0.3125em;
+    border-radius: 0.625em;
     background-color: rgba(2, 2, 2, 0);
 }
 
 .apropos {
 
-    margin: 15px;
+    margin: 0.9375em;
 }
 
 .imgPres {
     /* max-width : 300px; */
-    margin: 25px;
-    padding: 10px;
-    border-radius: 25px;
+    margin: 1.5625em;
+    padding: 0.625em;
+    border-radius: 1.5625em;
     width: 25vw;
 }
 
 .artpres {
-    margin: 25px;
-    padding: 25px;
+    margin: 1.5625em;
+    padding: 1.5625em;
 }
 
 .artpres>div {
     margin: 50px;
-    padding: 25px;
+    padding: 1.5625em;
 
 }
 
@@ -313,9 +319,9 @@ header {
 }
 
 .presentation p {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
+    padding: 0.3125em;
+    margin: 0.3125em;
+    border-radius: 0.625em;
     background-color: rgba(0, 0, 0, 0);
     color: #000000;
     text-align: justify;
@@ -338,8 +344,8 @@ header {
 }
 
 .pres1 p {
-    margin: 25px;
-    padding: 15px;
+    margin: 1.5625em;
+    padding: 0.9375em;
     font-size: 150%;
     width: 50vw;
 }
@@ -356,13 +362,13 @@ header {
 }
 .contact_box{
     margin: auto;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 22px 28px 13px #02010188;
+    box-shadow: 0em 1.375em 1.75em 0.8125em #02010188;
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 0.625em;
     max-width: 13vw;
     transition: all .5s ease-in-out;
 
@@ -373,7 +379,7 @@ header {
 .contact h4{
     color: #000000;
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 0.625em;
     max-width: 13vw;
 }
 .contact h4:hover{

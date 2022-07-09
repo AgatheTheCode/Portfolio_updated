@@ -25,6 +25,6 @@ echo $twig->render('competence_template.twig', [
   'titre' => $titre_contenu,
   'competence' => $competence,
   'index' => $index,
-  'nav' => $nav,
-  'footer' => $footer,
+  //'nav' => $nav,
+  //'footer' => $footer,
 ]);

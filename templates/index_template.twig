@@ -27,7 +27,7 @@
 					<ul class="carte_ul flex ">
 						<div role="placement" class="flex placement">
 							{% for element in type_contenu %}
-								<li class="flex hover_1 {{element.nomspe_type_contenu}}">
+								<li class="flex hover_1 {{element.nomspe_type_contenu}} script_{{element.nomspe_type_contenu}}">
 									<a href="competence.php?id={{ element.id_type_contenu }}" class="carte {{element.nomspe_type_contenu}}">
 										<p class="lnav {{element.nomspe_type_contenu}}_type ">{{element.nom_type_contenu}}</p>
 									</a>
