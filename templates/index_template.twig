@@ -16,7 +16,7 @@
 								</h1>
 								<h2>{{index.soustitre}}</h2>
 								{# reflechir position du sous titre #}
-								<h3>
+								<h3 class="flex wip">
 									! Ce site est encore en WIP !
 								</h3>
 							</div>
@@ -79,9 +79,7 @@
 									</div>
 									{% endfor %}
 									<div class="contact_box">
-										<a class="flex contact" href="contact.php">
-											<h4>Contactez-moi !</h4>
-										</a>
+										<a class="flex contact" href="mailto:agathe.dufour.marin@gmail.com?subject=Prise de contact">Contactez-moi !</a>
 									</div>
 								</div>
 							</div>
@@ -89,5 +87,6 @@
 						</article>
 					</section>
 				</main>
-			</body>
 		{% endblock body %}
+		{% block footer %}
+		{% endblock %}

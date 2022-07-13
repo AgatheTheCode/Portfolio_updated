@@ -25,7 +25,7 @@ function insert_ligne() {
             '2',
             '4',
             '9',
-            '1',
+            '6',
             '12',
         ];
 
@@ -47,7 +47,7 @@ function insert_ligne() {
 
         console.log($positionX_rand, $positionY_rand);
 
-        $enfant.style.backgroundColor = 'red';
+        $enfant.style.backgroundColor = 'transparent';
         //mettre un gradiant
         $enfant.style.transform = $angle.at($angle_round);
         $enfant.style.top = $positionX_round + "em";

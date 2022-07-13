@@ -1,4 +1,14 @@
 /* utilitaire */
+.contact {
+    font-size: 120% !important;
+    font-weight: bold !important;
+    color: black !important;
+    padding: .3em;
+}
+
+.wip {
+    color: red;
+}
 
 html {
     display: flex;
@@ -15,7 +25,8 @@ html {
     background-repeat: no-repeat;
     background-size: 100vh 100vw; */
     position: relative;
-    top: -1.25em;
+    /* top: -1.25em; */
+
 }
 
 i {
@@ -132,11 +143,15 @@ body {
     box-shadow: 0em 1.375em 1.75em 0.8125em #02010188;
 
 }
-
+.scroller h4{
+    margin :.5em;
+}
 .scroller a {
     color: #000000;
-    margin-top: 0.625em;
+    margin-top: 0.8em;
+    margin-bottom: .8em;
     font-size: 120%;
+    font-weight: normal;
     transition: all .5s ease-in-out;
 }
 
@@ -198,8 +213,9 @@ header {
     transition: all .5s ease-in-out;
     border-radius: 1.5625em;
 }
+
 /* lignes */
-.ligne{
+.ligne {
     position: absolute;
     height: .3em;
     width: 5em;
@@ -252,7 +268,10 @@ header {
 
 
 }
+.skip h2{
+    font-weight: 100!important;
 
+}
 .skip:hover {
     background-color: whitesmoke;
     /* background-color: #dcf5dc; */
@@ -325,6 +344,7 @@ header {
     background-color: rgba(0, 0, 0, 0);
     color: #000000;
     text-align: justify;
+    line-height: 2!important;
 
 }
 
@@ -360,7 +380,8 @@ header {
     align-items: flex-end;
     flex-direction: column;
 }
-.contact_box{
+
+.contact_box {
     margin: auto;
     border-radius: 1.5625em;
     box-sizing: border-box;
@@ -373,20 +394,28 @@ header {
     transition: all .5s ease-in-out;
 
 }
-.contact_box:hover{
+
+.contact_box:hover {
     transform: scale(1.2);
 }
-.contact h4{
+
+.contact h4 {
     color: #000000;
     background-color: whitesmoke;
     padding: 0.625em;
     max-width: 13vw;
 }
-.contact h4:hover{
+
+.contact h4:hover {
     color: #8500b9;
 }
-.flag{
+
+.flag {
     width: 10vw;
     height: 10vw;
 }
+
 /* footer */
+footer{
+
+}
