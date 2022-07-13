@@ -40,9 +40,9 @@ body {
     pointer-events: none;
 } */
 
-.htmlav {
+/* .htmlav {
     animation: textShadow 1.6s infinite;
-}
+} */
 
 @keyframes flicker {
     0% {

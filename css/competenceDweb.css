@@ -29,7 +29,9 @@
     pointer-events: none;
     overflow: hidden; 
 } */
-
+.inter{
+    color: white;
+}
 .htmldweb {
     animation: textShadow 1.6s infinite;
 }

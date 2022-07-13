@@ -135,7 +135,7 @@ body {
     position: fixed;
     z-index: 1;
     width: 14vw;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.499);
     left: 0.625em;
     top: 16.25em;
     overflow-x: hidden;
@@ -157,6 +157,7 @@ body {
 
 .scroller:hover {
     transform: scale(1.1);
+    background-color: whitesmoke;
 }
 
 .scroller a:hover {
@@ -335,6 +336,7 @@ header {
 
     flex-direction: column;
     width: 90vw;
+
 }
 
 .presentation p {
@@ -346,6 +348,10 @@ header {
     text-align: justify;
     line-height: 2!important;
 
+}
+
+.pres1{
+    justify-content: space-evenly;
 }
 
 .presentation .pres1:nth-child(3n-2) {
@@ -368,11 +374,11 @@ header {
     padding: 0.9375em;
     font-size: 150%;
     width: 50vw;
+
 }
 
 .presentation :nth-child(3n-2) {
     align-items: flex-start;
-
     flex-direction: column;
 }
 
@@ -416,6 +422,59 @@ header {
 }
 
 /* footer */
-footer{
+.footer{
+    background-color: rgb(51, 51, 51);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    margin: 3em;
+    padding: 1em;
+}
+.footer_lien{
+    font-size: medium!important;
+    font-weight: 400!important;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+.credit{
+    margin: 1.5em;
+    padding:.1em;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.footer_liensrs{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer_liensrs a{
+    margin: 1.5em;
+    padding:.1em;
+}
+.boite_rs{
+    flex-direction: column;
+    margin: 1.5em;
+    padding:.1em;    
+    justify-content: space-evenly;
+    align-items: center;
+    color:#000000;
+
+}
+.rs_footer{
+    margin: auto;
+    padding-bottom:1em ;    
+    width: 80%;
+    height: auto;
+}
+.footer_liensrs :nth-child(2n-1){
+    color:white;
+}
+.footer_liensrs :nth-child(2n){
+    color:green;
+}
+.boite_rs:hover a{
+    color: #8500b9;
 }

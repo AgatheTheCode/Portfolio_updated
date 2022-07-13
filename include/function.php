@@ -66,6 +66,7 @@ function select_commentaire($pdo){
     // exécution de la requête
     $query = $pdo->prepare($sql);
 
+  
     $query->execute();
 
     if ($query->errorCode() == '00000') {
