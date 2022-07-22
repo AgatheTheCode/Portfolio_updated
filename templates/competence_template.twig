@@ -5,9 +5,6 @@
 		{% endfor %}
 	{% endblock spe %}
 	{% block CSS %}
-		<link rel="stylesheet" href="css/competenceAV.css">
-		<link rel="stylesheet" href="css/competenceDweb.css">
-		<link rel="stylesheet" href="css/competenceComdi.css">
 	{% endblock CSS %}
 	{% block main %}
 		{% for element in titre %}
@@ -31,7 +28,7 @@
 							</a>
 							{% for item in competence %}
 								<article class="flex art_{{element.nomspe_type_contenu}}">
-									<h2 class="flex green_{{element.nomspe_type_contenu}}">{{item.titre_contenu}}</h2>
+									<h2 class="flex titre_{{element.nomspe_type_contenu}}">{{item.titre_contenu}}</h2>
 									<div class="flex row_{{element.nomspe_type_contenu}}">
 										<a class="flex href" href="{{item.lien_contenu}}">
 											<img class="flex img_{{element.nomspe_type_contenu}}" src="image/{{item.image_contenu}}.png" alt="ilustration compétence {{item.nom_type_contenu}}">
