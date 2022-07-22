@@ -15,8 +15,8 @@ include('include/function.php');
 $competence = select_type_contenu($pdo,$id);
 $titre_contenu = select_titre_contenu($pdo,$id);
 $nomspe_type_contenu =select_nomspe($pdo,$id);
-//$competence = focus_competence($pdo,$id);
-//var_dump($competence);
+$type_contenu = select_contenu($pdo);
+
 
 include('include/index_data.php');
 
@@ -25,6 +25,5 @@ echo $twig->render('competence_template.twig', [
   'titre' => $titre_contenu,
   'competence' => $competence,
   'index' => $index,
-  //'nav' => $nav,
-  //'footer' => $footer,
+  'type_contenu' => $type_contenu,
 ]);

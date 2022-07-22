@@ -1,11 +1,11 @@
 
-.htmldweb:after {
+/* .htmldweb:after {
     content: " ";
     display: block;
     position: absolute;
     top: -999vh;
     left: 0;
-    bottom: -260vh;
+    bottom: -999vh;
     right: 0;
     background: rgba(18, 16, 16, 0.1);
     opacity: 0;
@@ -21,29 +21,33 @@
     position: absolute;
     top: -999vh;
     left: 0;
-    bottom: -260vh;
+    bottom: -999vh;
     right: 0;
     background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
     z-index: 2;
     background-size: 100% 2px, 3px 100%;
-    pointer-events: none;
-    /* overflow: hidden; */
-}
-
+    pointer-events: none
+    }
 .htmldweb {
     animation: textShadow 1.6s infinite;
 }
 .body_dweb {
-    height: 100vw;
-    width: 100vw;
+    height: auto;
+    width: 90vw;
     background-color: rgb(51, 51, 51);
     /* font-family: 'Source Code Pro', monospace; */
     font-family: 'VT323', monospace;  
     justify-content: center;
     align-items: center;
 }
+.wrapperdweb{
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .img_dweb{
-    width : 40vw;
+    width : 30vw;
     height: auto;
     border-radius: 25px;
     border: 2px solid lime;
@@ -80,18 +84,16 @@
     padding: 25px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    max-width: 90vw;
-}
+    flex-direction: column;}
 
-.art_dweb>h2 {
+/* .art_dweb>h2 {
     font-size: 300%;
     /* margin-left: 200px; */
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    max-width: 30vw;
-    /* margin: auto; */
-}
+    max-width: 30vw; */
+    /* margin: auto; }*/
+
 
 .row_dweb {
     max-width: 90vw;
@@ -100,15 +102,15 @@
 }
 
 .div_dweb {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    max-width: 30vw;
+    align-items: flex-start;
+    max-width: 50vw;
 }
 
 .div_dweb>p {
-    margin: 10px;
-    padding: 5px;
+    margin: 1em;
+    padding: .25em;
     font-size: 200%;
 }
 /* .imgctn{
@@ -118,8 +120,18 @@
     border: 2px solid lime;
     margin :10px;
 } */
+.titre_dweb{
+    font-family: 'VT323', monospace;  
+    color: limegreen;
+    margin: 1em;
+    max-width: 75%;
+    font-size: 300%;
+    text-decoration: underline dotted;
+    font-weight: 400;
 
+}
 .green_dweb {
     font-family: 'VT323', monospace;  
     color: limegreen;
+    margin: 1em;
 }

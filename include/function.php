@@ -21,7 +21,7 @@ function select_contenu($pdo){
 }
 function select_type_contenu($pdo,$id){
             // construction de la requête
-            $sql = 'SELECT *,type_contenu.id_type_contenu FROM contenu INNER JOIN type_contenu ON type_contenu.id_type_contenu = contenu.id_type_contenu  where type_contenu.id_type_contenu =:id';
+            $sql = 'SELECT *,type_contenu.id_type_contenu FROM contenu INNER JOIN type_contenu ON type_contenu.id_type_contenu = contenu.id_type_contenu  where type_contenu.id_type_contenu =:id ORDER BY date_contenu DESC';
 
             // exécution de la requête
             $query = $pdo->prepare($sql);
@@ -66,6 +66,7 @@ function select_commentaire($pdo){
     // exécution de la requête
     $query = $pdo->prepare($sql);
 
+  
     $query->execute();
 
     if ($query->errorCode() == '00000') {

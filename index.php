@@ -10,7 +10,6 @@ include('include/function.php');
 $type_contenu = select_contenu($pdo);
 
 include('include/index_data.php');
-// var_dump($type_contenu);
 
 echo $twig->render('index_template.twig', [
   'type_contenu' => $type_contenu,

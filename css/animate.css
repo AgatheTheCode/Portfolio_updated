@@ -11,7 +11,7 @@ body {
     font-family: 'Fira Mono', monospace;
 }
 
-.htmlav::after {
+/* .htmlav::after {
     content: " ";
     display: block;
     position: absolute;
@@ -38,11 +38,11 @@ body {
     z-index: 2;
     background-size: 100% 2px, 3px 100%;
     pointer-events: none;
-}
+} */
 
-.htmlav {
+/* .htmlav {
     animation: textShadow 1.6s infinite;
-}
+} */
 
 @keyframes flicker {
     0% {
